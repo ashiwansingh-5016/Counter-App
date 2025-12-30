@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.box{
+    background-color: black;
+    height: 100vh;
+    display:flex;
+    align-content: center;
+    align-items: center;  
+    justify-content: space-evenly;
+}
+.counting-text{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 200px;
+    color: white;
+    
+}
+
+.design{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 40px;
+    align-items: center;
+    align-content: center;
+}
+.counting-add:hover{
+    background-image: radial-gradient(circle,white ,grey);
+    scale:(1.1);
+}
+.counting-neg:hover{
+    background-color: red;
+}
+.reset-button:hover{
+    background-color: grey;
+}
